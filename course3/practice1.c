@@ -2,7 +2,7 @@
 
 void bubble_sort(int arr[], int sz)
 {
-    // parameter form: "arr[]" means the first element's address in this array, equals to int* arr[0].
+    // parameter form: "arr[]" means the first element's address(&arr[0]) in this array, equals to int* arr.
     // because of it is a pointer, we can't calculate array's size in function.
     // with input parameter is a pointer, so this function can change value with address.
     // then the return type of this function is been set to void.
