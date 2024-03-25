@@ -8,13 +8,17 @@ void bubble_sort(int arr[], int sz)
     // then the return type of this function is been set to void.
     for (int x = 0; x < (sz - 1); x++)
     {
+        int check_if_sorted = 1;
+        //optimize that if the array is already sorted in the process, it doesn't need to continue the loop.
         for (int y = 0; y < (sz - 1 - x); y++)
         {
             if(arr[y]>arr[y+1]){
                 int tmp = arr[y+1];
                 arr[y+1] = arr[y];
                 arr[y] = tmp;
+                check_if_sorted = 0;
             }
+            if(check_if_sorted == 1)break;
         }
     }
 }
