@@ -1,5 +1,5 @@
 #include <stdio.h>
-// use "Exclusive or" to solve this question
+// use "Exclusive or" to solve this question(swap two number without create any new parameter)
 void swap_without_tmp(int* a, int* b){
     // printf("a = %d",*a);
     *a = *a ^ *b;
