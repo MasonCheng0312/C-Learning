@@ -27,7 +27,7 @@ int main()
     int example[10];
     int* pt = example;
     // now example[i] == *(pt + i) == *(example + i) == pt[i]
-    
+
     /*******************************************************************************************************************/
 
 
@@ -72,5 +72,16 @@ int main()
     print2(test_arr, 3, 5);
 
     /*******************************************************************************************************************/
+
+    // now consider 4 parameter below, what type those parameter are?
+
+    int arr[5];
+    int *parr[10];
+    int (*parr2)[10];
+    int (*parr3[5])[10]; 
+    // difficult case, parr3 is an array with 5 element, each element is an array pointer, witch target to int array.
+    
+    /*******************************************************************************************************************/
+
     return 0;
 }
