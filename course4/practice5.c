@@ -18,6 +18,8 @@ int main(){
     // but how should we create a pointer parameter for function?
     int (*p)(int,int) = Add;
     
+    // then how to use this pointer? 
+    printf("%d", (*p)(a,b));
      
     return 0;
 }
