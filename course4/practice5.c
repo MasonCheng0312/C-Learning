@@ -11,8 +11,8 @@ int main(){
 
     // what is the address of function?
 
-    printf("%p\n",&Add);
-    printf("%p\n",Add);
+    // printf("%p\n",&Add);
+    // printf("%p\n",Add);
     // both correct
 
     // but how should we create a pointer parameter for function?
@@ -20,6 +20,12 @@ int main(){
     
     // then how to use this pointer? 
     printf("%d", (*p)(a,b));
-     
+
+    // we can also find this :
+    printf("%d\n", (p)(a,b));
+    printf("%d\n", (**p)(a,b));
+    printf("%d\n", (***p)(a,b));
+    // so when we use function pointer, we can just call it without dereference(解引用)
+    // but don't use *** or **, the example is just show it can also work
     return 0;
 }
