@@ -9,6 +9,7 @@ struct student
 
 void Swap(char *e1, char *e2, int ele_size)
 {
+    // swap element one by one byte
     for (int i = 0; i < ele_size; i++)
     {
         char tmp = *e1;
@@ -24,7 +25,10 @@ void bubbleSort(void *p_Arr, int size_of_arr, int size_of_element, int (*p_cmp)(
     for (int i = 0; i < size_of_arr -1; i++)
     {
         for (int j = 0; j < size_of_arr - 1 - i; j++)
-        {               
+        {
+            // consider that why we change pointer type from void to char
+            // because char type only occupy 1 byte, so when we do some address process, it will only move 1 byte every time
+            // same reason in Swap()             
             if (p_cmp((char *)p_Arr + (j * size_of_element), (char *)p_Arr + ((j + 1) * size_of_element)) > 0)
             {
                 Swap((char *)p_Arr + (j * size_of_element), (char *)p_Arr + ((j + 1) * size_of_element),size_of_element);
