@@ -27,5 +27,10 @@ int main(){
     printf("use my_strlen() build ourself\n");
     printf("result is %d \n",my_strlen(str_arr));
 
+    // now consider this situation:
+    if (strlen("abc")-strlen("abcde") > 0)printf("why?\n");
+    printf("because of return type of strlen() is size_t, which also called unsigned int\n");
+    printf("and when we calculate two size_t num, the result always positive\n");
+    
     return 0;
 }
