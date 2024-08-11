@@ -5,13 +5,19 @@
 char* my_strcpy(char* destination, char* source){
     char* ret = destination;
 
-    while (*source != '\0')
-    {
-        *destination = *source;
-        destination++;
-        source++;
+    // while (*source != '\0')
+    // {
+    //     *destination = *source;
+    //     destination++;
+    //     source++;
+    // }
+    // *destination = *source; // copy '\0'
+
+    assert(destination != NULL);
+    assert(source != NULL);
+    while(*destination++ = *source++){
+        ; // consider why this work?
     }
-    *destination = *source; // copy '\0'
 
     return ret;
 }
