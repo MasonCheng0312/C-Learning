@@ -29,3 +29,6 @@
 ## 嘗試針對課堂練習做延伸
 - 練習1: 將Unit1 Practice6 的規則改為由內向外印出文字。
 - 練習2: 嘗試利用Early Exit Flag優化Bubble Sort
+- 練習3: 利用運算符(Operator)控制硬體行為。
+- 練習4: 利用運算符(Operator)提取RGBA通道。
+- 練習5: 利用運算符(Operator)在多數耦合的整數數列中找到孤立的數。
