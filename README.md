@@ -25,3 +25,7 @@
 - 練習4: 使用條件表達運匴子(? :)來達成if else條件判斷句的效果。
 - 練習5: 建立Structure並分別使用struct.member 以及 pointer -> member的方式調用Structure的成員。
 - 問題1: 當邏輯與(&&)或邏輯或(||)同時與 ++ , --等同時出現，可能出現的問題討論。
+
+## 嘗試針對課堂練習做延伸
+- 練習1: 將Unit1 Practice6 的規則改為由內向外印出文字。
+- 練習2: 嘗試利用Early Exit Flag優化Bubble Sort
