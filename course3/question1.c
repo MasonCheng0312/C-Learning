@@ -11,7 +11,7 @@ int main(){
     // what is the output of a b c d ?
     // answer = 1, 2, 3, 4
     // why?
-    // because && is "and" operator, and "a++" means use a before ++
+    // because && is "and" operator, and "a++" means use parameter a before ++
     // so the result of a = 0 && ... is 0, which doesn't matter what value of other parameter after &&
     // ++b and d++ will not been run in this case.
 
