@@ -34,9 +34,9 @@
 - 練習5: 利用運算符(Operator)在多數耦合的整數數列中找到孤立的數。
 - 練習6: 練習不同array傳遞給function的方式。
 - 練習7: 復刻memcpy()函數
-- Leetcode 14(easy): found longest prefix in string array.
-- Leetcode 1672(easy): application of 2-D pointer array.
-- Leetcode 48(medium): rotate n*n matrix without create new array variable.
-- Leetcode 283(easy): move 0. we have two method to solve this question.
-- Leetcode 88(easy): merge sorted array without create new array variable. O(M+N)
-- Leetcode 11(medium): find maximum container area with two pointer and greedy strategy.
+- Leetcode 14 (easy) : found longest prefix in string array.
+- Leetcode 1672 (easy) : application of 2-D pointer array.
+- Leetcode 48 (medium) : rotate n*n matrix without create new array variable.
+- Leetcode 283 (easy) : move 0. we have two method to solve this question.
+- Leetcode 88 (easy) : merge sorted array without create new array variable. O(M+N)
+- Leetcode 11 (medium) : find maximum container area with two pointer and greedy strategy.
